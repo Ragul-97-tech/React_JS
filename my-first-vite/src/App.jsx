@@ -26,6 +26,8 @@ function App() {
 
   const [color, setColor] = useState("#df13d5");
 
+  console.log("ho")
+
   return (
     <>
       <TextBox></TextBox>
