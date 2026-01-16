@@ -1,8 +1,8 @@
 import './App.css'
-import Welcome from './Component/firstComp'
-import Header from './Component/header'
-import Greeting from './Component/Greetings'
-import ProductCard from './Component/ProductCard'
+import Welcome from './Component/Lecture_001/firstComp'
+import Header from './Component/Lecture_001/header'
+import Greeting from './Component/Lecture_001/Greetings'
+import ProductCard from './Component/Lecture_001/ProductCard'
 
 function App() {
   const topicNames = ["JSX", "Props", "State", "Hooks"];
