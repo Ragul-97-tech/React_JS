@@ -26,7 +26,7 @@ function App() {
 
   const [color, setColor] = useState("#df13d5");
 
-  console.log("ho")
+  console.log("hi everyone")
 
   return (
     <>
