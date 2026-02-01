@@ -5,6 +5,7 @@ import LectureOne from './Lecture_One'
 import LectureTwo from './Lecture_Two'
 import LectureFive from './Lecture_Five'
 import LectureThree from './Lecture_Three'
+import LectureSix from './Lecture_Six'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,5 +13,6 @@ createRoot(document.getElementById('root')).render(
     <LectureTwo />
     <LectureThree />
     <LectureFive />
+    {/* <LectureSix /> */}
   </StrictMode>,
 )

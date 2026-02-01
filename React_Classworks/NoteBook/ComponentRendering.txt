@@ -1,0 +1,22 @@
+            ------- Init -------
+            |                   |  
+        UnMount               Mount
+            |                   |
+            ------- Update ------
+
+
+------ Hooks (Special function) -----
+
+        --> useState    ->  rendering the state of the element
+                                |> [state, set fn()]
+        
+        --> useRef      -> returns Object in currect key
+
+        --> useEffect   -> (function, array[])
+                                |> returns cleanUp function
+
+        --> useReducer  -> managing the numerous useStates()
+                            -> (reducer function(), initialState)
+                                |> returns [state, dispatch function()]
+                                    dispatch() -> params: action object only
+        --> useContext  -> 
